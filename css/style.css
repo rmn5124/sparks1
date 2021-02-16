@@ -1,0 +1,76 @@
+.logo{
+    width: 8%;
+}
+.title-image{
+    width: 115%;
+}
+
+.big-heading{
+    color: #213e3b;
+}
+.title{
+    padding: 7% 12%;
+    background-color: #ad6c80;
+}
+.buttoninfo{
+    border-radius: 100px;
+background-color: #fdb827 ;
+    
+}
+.money:hover{
+text-decoration: none;
+color: #fa836e;
+}
+.money{
+    color: black;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 25px 0.5rem ;
+    background-color: #faf3e0;
+}
+
+.navbar-brand{
+    font-family: 'montserrat';
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.nav-item{
+    padding: 0px 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat Alternates";
+    color: #eb1088;
+}
+
+.big-heading{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+footer{
+    padding: 41px 550px 1.5rem;
+}
+.social-icon{
+    margin: 20px 10px;
+}
+
+@media  (max-width : 1020px){
+    
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+
+}
